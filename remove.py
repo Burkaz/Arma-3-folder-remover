@@ -4,6 +4,7 @@ import time
 import shutil
 
 username = getpass.getuser()
+os.system('color 3')
 print ("Hello " + (username))
 print ("Starting the proccess of removing files!")
 
@@ -24,3 +25,4 @@ shutil.rmtree(filepath)
 print("Removed " + filepath)
 time.sleep(2)
 print("All done! Don't forget to change your IP or get a VPN to join the server you were banned on!")
+time.sleep(15)
